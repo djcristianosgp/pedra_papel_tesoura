@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pedra_papel_tesoura.Views.AboutPage"
+             xmlns:helpers="clr-namespace:pedra_papel_tesoura.Helpers"
+            Title="Sobre">
+    <VerticalStackLayout  HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Margin="2" HorizontalTextAlignment="Center" Text="Desenvolvido por Cristiano Grobério" FontSize="Medium" />
+        <Button Margin="2" Text="Instagram" Clicked="OnInstagramClicked" />
+        <Button Margin="2" Text="Repositório no GitHub" Clicked="OnGitHubClicked" />
+        <Label Margin="2" HorizontalTextAlignment="Center" Text="Versão: 2025.07.17.1548" />
+        <Label Margin="2" HorizontalTextAlignment="Center"  Text="{x:Static helpers:AppInfoHelper.CurrentYear}" />
+    </VerticalStackLayout>
+</ContentPage>

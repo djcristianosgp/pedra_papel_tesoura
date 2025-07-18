@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pedra_papel_tesoura", "pedra_papel_tesoura\pedra_papel_tesoura\pedra_papel_tesoura.csproj", "{0D121C7C-862C-4AF0-9525-0AB0E28C75BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pedra_papel_tesoura.Droid", "pedra_papel_tesoura\pedra_papel_tesoura.Droid\pedra_papel_tesoura.Droid.csproj", "{CE2584A2-FE65-4B6B-9B53-8DDA5BF0E897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pedra_papel_tesoura.iOS", "pedra_papel_tesoura\pedra_papel_tesoura.iOS\pedra_papel_tesoura.iOS.csproj", "{F3AF83E7-5C90-4356-B363-204540A26FDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pedra_papel_tesoura.Mac", "pedra_papel_tesoura\pedra_papel_tesoura.Mac\pedra_papel_tesoura.Mac.csproj", "{14A4E596-F97D-4FD4-AAA3-6F934212D9F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pedra_papel_tesoura.WinUI", "pedra_papel_tesoura\pedra_papel_tesoura.WinUI\pedra_papel_tesoura.WinUI.csproj", "{3BB95361-0244-441E-9F99-EEB96746286D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D121C7C-862C-4AF0-9525-0AB0E28C75BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D121C7C-862C-4AF0-9525-0AB0E28C75BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D121C7C-862C-4AF0-9525-0AB0E28C75BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D121C7C-862C-4AF0-9525-0AB0E28C75BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE2584A2-FE65-4B6B-9B53-8DDA5BF0E897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE2584A2-FE65-4B6B-9B53-8DDA5BF0E897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE2584A2-FE65-4B6B-9B53-8DDA5BF0E897}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CE2584A2-FE65-4B6B-9B53-8DDA5BF0E897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE2584A2-FE65-4B6B-9B53-8DDA5BF0E897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE2584A2-FE65-4B6B-9B53-8DDA5BF0E897}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F3AF83E7-5C90-4356-B363-204540A26FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3AF83E7-5C90-4356-B363-204540A26FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3AF83E7-5C90-4356-B363-204540A26FDE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F3AF83E7-5C90-4356-B363-204540A26FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3AF83E7-5C90-4356-B363-204540A26FDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3AF83E7-5C90-4356-B363-204540A26FDE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{14A4E596-F97D-4FD4-AAA3-6F934212D9F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A4E596-F97D-4FD4-AAA3-6F934212D9F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A4E596-F97D-4FD4-AAA3-6F934212D9F8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{14A4E596-F97D-4FD4-AAA3-6F934212D9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A4E596-F97D-4FD4-AAA3-6F934212D9F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A4E596-F97D-4FD4-AAA3-6F934212D9F8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3BB95361-0244-441E-9F99-EEB96746286D}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{3BB95361-0244-441E-9F99-EEB96746286D}.Debug|Any CPU.Build.0 = Debug|x64
+		{3BB95361-0244-441E-9F99-EEB96746286D}.Release|Any CPU.ActiveCfg = Release|x64
+		{3BB95361-0244-441E-9F99-EEB96746286D}.Release|Any CPU.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BEB9E56-E7E1-4947-8249-0F54CAF1CE94}
+	EndGlobalSection
+EndGlobal

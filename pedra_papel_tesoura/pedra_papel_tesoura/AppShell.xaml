@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="pedra_papel_tesoura.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:pedra_papel_tesoura.Views"
+    Shell.FlyoutBehavior="Flyout"
+    Title="pedra_papel_tesoura">
+
+
+    <ShellItem Title="Jogo" Icon="icon_jogo.png">
+        <ShellContent
+            Title="Jogo"
+            ContentTemplate="{DataTemplate local:MainPage}" />
+    </ShellItem>
+
+    <ShellItem Title="Sobre" Icon="icon_sobre.png">
+        <ShellContent
+            Title="Sobre"
+            ContentTemplate="{DataTemplate local:AboutPage}" />
+    </ShellItem>
+
+</Shell>

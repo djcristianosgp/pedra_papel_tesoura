@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21.0</SupportedOSPlatformVersion>
+		<OutputType>Exe</OutputType>
+		<RootNamespace>pedra_papel_tesoura</RootNamespace>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseMaui>true</UseMaui>
+		<ApplicationIcon>pedra_papel_tesoura.ico</ApplicationIcon>
+		<Authors>Cristiano Groberio</Authors>
+		<Company>Área 27</Company>
+		<Product>Pedra Papel Tesoura</Product>
+		<PackageIcon></PackageIcon>
+		<AssemblyVersion>1.0.0.1</AssemblyVersion>
+		<FileVersion>1.0.0.1</FileVersion>
+		<SignAssembly>False</SignAssembly>
+		<Title>Pedra Papel Tesoura</Title>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	  <ApplicationTitle>Pedra Papel Tesoura</ApplicationTitle>
+	  <ApplicationDisplayVersion>1.0.0</ApplicationDisplayVersion>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+	  <ApplicationTitle>Pedra Papel Tesoura</ApplicationTitle>
+	  <ApplicationDisplayVersion>1.0.0</ApplicationDisplayVersion>
+	  <AndroidPackageFormat>apk</AndroidPackageFormat>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Include="pedra_papel_tesoura.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\pedra_papel_tesoura\pedra_papel_tesoura.csproj" />
+	</ItemGroup>
+
+</Project>
